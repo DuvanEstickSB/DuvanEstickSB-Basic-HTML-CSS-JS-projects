@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test CPS - Principiante</title>
+</head>
+<body>
+    <main>
+        <div>
+            <div class="contenedor-titulo">
+                <h1 class="titulo">TEST DE CLICS POR SEGUNDO</h1>
+            </div>
+            <hr class="separador-titulo">
+            <p class="descripcion">Prueba tu velocidad de clics con nuestro Test CPS (Clics Por Segundo). Haz clic lo más rápido posible durante el tiempo seleccionado y descubre cuántos clics por segundo puedes alcanzar.</p>
+        </div>
+    
+        <div class="contendor-CPS">
+            <div id="area-clic" class="contenedor-clic">
+                <div>
+                    <span id="texto-clic" class="span-clic">HACER CLICK PARA EMPEZAR</span>
+                </div>
+            </div>
+
+            <div class="contenedor-resultados">
+                <div class="titulo-resultados">RESULTADOS</div>
+                <hr class="separador-resultado">
+                <p class="resultado">Resultado: <strong id="texto-resultado" class="resultado-strong">0 CPS</strong></p>
+            </div>
+
+            <div class="contenedor-desafios">
+                <div>
+                    <h1 class="titulo-desafios">TIEMPO DE PRUEBA</h1>
+                </div>
+                <hr class="separador-desafio">
+                <ul class="desafios-buttom">
+                    <li id="tiempo-5">5 segundos</li>
+                    <li id="tiempo-10">10 segundos</li>
+                    <li id="tiempo-20">20 segundos</li>
+                    <li id="tiempo-30">30 segundos</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contenedor-reinicio">
+            <button id="boton-reinicio">REINICIAR</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

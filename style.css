@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #1e1e1e;
+    color: white;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+main {
+    max-width: 1200px;
+    width: 100%;
+}
+.contenedor-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.separador-titulo {
+    height: 2px;
+    background-color: #444;
+    border: none;
+    margin: 20px auto;
+    width: 60%;
+}
+.descripcion {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contendor-CPS {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contenedor-clic {
+    flex: 1;
+    background-color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.contenedor-clic:hover {
+    background-color: #3e3e3e;
+}
+
+.span-clic {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.contenedor-reinicio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+#boton-reinicio {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+}
+
+#boton-reinicio:hover {
+    background-color: #c0392b;
+}
+
+.contenedor-resultados {
+    flex: 1;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.titulo-resultados {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+.separador-resultado {
+    height: 2px;
+    background-color: #444;
+    border: none;
+    margin: 10px 0 20px;
+}
+.resultado {
+    font-size: 18px;
+    color: white;
+}
+.resultado-strong {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4caf50;
+}
+.contenedor-desafios {
+    flex: 1;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.titulo-desafios {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+.separador-desafio {
+    height: 2px;
+    background-color: #444;
+    border: none;
+    margin: 10px 0 20px;
+}
+.desafios-buttom {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.desafios-buttom li {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 80%;
+}
+.desafios-buttom li:hover {
+    background-color: #505050;
+}
+
+.desafios-buttom li.seleccionado {
+    background-color: #4caf50;
+}
